@@ -5,10 +5,11 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 import pl.sda.ristoretoCoffeeShop.service.OrderService;
 
 
-@Controller
+@RestController
 @RequestMapping("/orders")
 public class OrderController {
 
