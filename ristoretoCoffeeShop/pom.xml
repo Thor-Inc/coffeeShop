@@ -34,28 +34,20 @@
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.springframework/spring-jdbc -->
 		<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-jdbc</artifactId>
-			<version>5.3.23</version>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jdbc</artifactId>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
-			<version>8.0.30</version>
+			<scope>runtime</scope>
 		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/org.springframework.data/spring-data-jpa -->
 		<dependency>
-			<groupId>org.springframework.data</groupId>
-			<artifactId>spring-data-jpa</artifactId>
-			<version>2.7.3</version>
-		</dependency>
-		<!-- https://mvnrepository.com/artifact/javax.persistence/javax.persistence-api -->
-		<dependency>
-			<groupId>javax.persistence</groupId>
-			<artifactId>javax.persistence-api</artifactId>
-			<version>2.2</version>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
 		</dependency>
 	</dependencies>
 
