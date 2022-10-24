@@ -18,7 +18,7 @@ import java.util.Date;
 public class Order {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private Integer id;
     private OrderStatus status;
     private double total;
     private Date date;
